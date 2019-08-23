@@ -8,4 +8,4 @@ var productSchema = new Schema({
     departments: [{type: mongoose.Schema.Types.ObjectId, ref:'Department'}]
 },{versionKey:false})
 
-module.exports =mongoose.model("Product", productSchema)
+module.exports = mongoose.model("Product", productSchema)
